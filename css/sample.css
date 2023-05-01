@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*全体♪
+-----------------*/
+body {
+    font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    line-height: 1.75;
+    font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+全ての写真の大きさを画面いっぱいに調整する*/ img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 全体を960pxにおさえる */
+
+body {
+max-width: 960px;
+    margin: auto
+    background-color: #000000;
+}
+
+
+header {
+    background-color: aquamarine;
+    border-top: 10px solid yellowgreen;
+    border-bottom: 10px solid;
+    text-align: center;
+    font-size: 38px;
+}
+
+ul li {
+    text-align: center;
+    /* list-style-type: none; */
+    border: 10px solid #666;
+    background-color: coral;
+    display: table-cell;
+    /* 定義 */
+    cursor: pointer;
+    font-size: 30px;
+   
+}
+
+li:hover {
+    background: #0066CC;
+    color: #fff;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.resultation ul li {
+    background-color: darkgrey;
+}
+
+section {
+    font-size: 30px;
+}
+
+.section_2 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+/* 診断結果のリスト */
+.diagnosis ul li {
+    font-size: 40px;
+    background-color: goldenrod;
+    /* 診断結果のフォントサイズ */
+}
+
+footer {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+
+
+ul {
+    padding: 0;
+    border-top: 1px solid #000000;
+    display: table;
+    /* 定義 */
+    table-layout: fixed;
+    width: 100%;
+}

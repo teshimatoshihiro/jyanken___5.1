@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--fabicon-->
+  <title>診断</title>
+  <link rel="icon" href="img/katesistu.jpg">
+  <link rel="apple-touch-icon" href="img/katesistu.jpg" sizes="400x400">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="video">
+    <strong>Diagnose</strong>
+    <div class="echo-station particles"> </div>
+    <video autoplay loop muted preload>
+      <source src="movie/body_electical_movie_640x360.mp4" type="video/mp4">
+    </video>
+  </div>
+  <p>症状と検査</p>
+
+  <section id="diagnosis">
+    <div class="btn" onclick="audio()"></div>
+
+    <ul>
+      <li id="symp_btn" onclick="audio()">症状</li>
+      <li id="ecg_btn" onclick="audio()">心電図</li>
+      <li id="scope_btn" onclick="audio()">内視鏡</li>
+      <li id="ct_btn" onclick="audio()">CT</li>
+    </ul>
+
+    <audio id="symp_btn_audio,ecg_btn_audio,scope_btn_audio,ct_btn_audio">
+      <source src="効果音/和太鼓でドドン.mp3">
+    </audio>
+  </section>
+
+  <h2>
+    症状・検査結果
+  </h2>
+
+  <section_2>
+    <div class="resultation">
+      <ul>
+        <li id="symp_hand">症状
+        </li>
+        <li id="ecg_hand">心電図結果</li>
+        <li id="scope_hand">内視鏡結果</li>
+        <li id="ct_hand">CT画像診断</li>
+      </ul>
+    </div>
+
+    <div class="diagnosis">
+      <ul>
+        <li id="result">診断結果</li>
+        <li id="result2">・診断結果</li>
+      </ul>
+    </div>
+
+    </section>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script src="js/main2.js">
+
+
+    </script>
+
+    </section>
+    <footer>
+      <div class="footer_moji">
+        <img src="img/katesistu.jpg" alt="カテ室写真">
+        <img src="img/OPE.jpg" alt="">
+    </footer>
+</body>
+
+</html>
