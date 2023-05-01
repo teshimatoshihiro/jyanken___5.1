@@ -2,7 +2,7 @@
 
 ## DEMO
 
-  - デプロイしている場合はURLを記入（任意）
+  -https://github.com/teshimatoshihiro/jyanken___5.1
 
 ## 紹介と使い方
 
